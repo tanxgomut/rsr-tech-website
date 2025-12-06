@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+    --ui-text: var(--color-gray-950);
+    --ui-text-highlighted: var(--color-gray-850);
+    --ui-text-muted: var(--color-gray-750);
+}
+
+.dark { 
+    --ui-text: var(--color-gray-200);
+    --ui-text-highlighted: var(--color-white);
+    --ui-text-muted: var(--color-gray-400);
+}
+
+@theme {
+  --font-sans: 'Prompt', sans-serif;
+} 
+
+html {
+  scroll-behavior: smooth;
+}
