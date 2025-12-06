@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
+import { SpeedInsights } from '@vercel/speed-insights/vue'
 const route = useRoute()
 
 const sectionTitles: Record<string, string> = {
@@ -55,6 +56,8 @@ const items = computed<NavigationMenuItem[]>(() => [
 </script>
 <template>
     <div>
+        <SpeedInsights />
+
         <UBanner icon="i-lucide-info" title="ใหม่! บริการทำเว็บ E-Commerce สำเร็จรูป ราคาเริ่มต้นเบาๆ"
             :actions="[{ label: 'ดูรายละเอียด', to: '/#services', variant: 'outline', size: 'xs' }]" close
             close-icon="i-lucide-x" />
