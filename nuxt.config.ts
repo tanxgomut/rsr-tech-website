@@ -46,9 +46,9 @@ export default defineNuxtConfig({
   //   disallow: ['/api'],
   // },
 
-  sitemap: {
-    sources: ['/api/sitemap'],
-  },
+  // sitemap: {
+  //   sources: ['/api/sitemap'],
+  // },
 
 
 })
