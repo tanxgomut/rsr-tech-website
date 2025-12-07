@@ -15,7 +15,6 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
   ],
   css: ['~/assets/css/main.css'],
-
   vite: {
     build: {
       cssMinify: 'lightningcss',
@@ -27,11 +26,16 @@ export default defineNuxtConfig({
       },
     },
   },
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://rsr-tech-website.vercel.app', // ใส่โดเมนจริงของคุณตรงนี้
+    }
+  },
 
   // seo
 
   site: {
-    url: 'https://rsrtechgroup.com', // ใส่โดเมนจริงของคุณตรงนี้
+    url: 'https://rsr-tech-website.vercel.app', // ใส่โดเมนจริงของคุณตรงนี้
     name: 'R.S.R Tech Group',
     description: 'รับเขียนโปรแกรม พัฒนา Software และ Application',
     defaultLocale: 'th',

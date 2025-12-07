@@ -1,14 +1,17 @@
 <script setup lang="ts">
 
+const runtimeConfig = useRuntimeConfig()
+const siteUrl = runtimeConfig.public.siteUrl
+
 const route = useRoute()
 
 useSchemaOrg([
   defineLocalBusiness({
     '@type': 'ITService' as any,
     name: 'R.S.R Tech Group',
-    url: 'https://rsrtechgroup.com',
-    logo: '/logo.png',
-    image: '/og-image.png',
+    url: siteUrl,
+    logo: `${siteUrl}/logo.png`,
+    image: `${siteUrl}/og-image.png`,
     description: 'บริการรับเขียนโปรแกรม พัฒนา Software และ Application ทุกแพลตฟอร์ม',
     telephone: '+66-90-570-5825',
     email: 'info@rsrtechgroup.com',
@@ -89,7 +92,8 @@ const ctaLinks = [
 </script>
 <template>
 
-  <UPageHero :ui="{ title: 'text-5xl sm:text-7xl text-pretty tracking-tight leading-14 sm:leading-21 font-bold text-highlighted' }"
+  <UPageHero
+    :ui="{ title: 'text-5xl sm:text-7xl text-pretty tracking-tight leading-14 sm:leading-21 font-bold text-highlighted' }"
     headline="R.S.R TECH GROUP" title="เปลี่ยนทุกไอเดีย ให้เป็นนวัตกรรมที่ใช้งานได้จริง"
     description="เราเชี่ยวชาญการพัฒนา Software และ Application คุณภาพสูง (iOS & Android) ทั้ง Front-end, Back-end และ Infrastructure พร้อมพาธุรกิจ SMEs และองค์กรขนาดใหญ่ก้าวสู่ยุค Digital Transformation อย่างมั่นคง"
     orientation="horizontal" :links="links">
