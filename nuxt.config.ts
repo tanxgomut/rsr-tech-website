@@ -86,10 +86,10 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: {
       type: 'LocalBusiness',
-      name: 'R.S.R Tech Group',
-      description: 'บริษัท Software House ชั้นนำ บริการรับเขียนโปรแกรม พัฒนา Software และ Application ทุกแพลตฟอร์ม',
+      name: 'บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด (R.S.R Tech Group) - บริษัทรับเขียนโปรแกรม',
+      description: 'บริษัท Software House ชั้นนำของไทย รับเขียนโปรแกรม รับทำเว็บไซต์ รับทำแอปพลิเคชัน iOS/Android พัฒนาซอฟต์แวร์ครบวงจร โดยทีมงานมืออาชีพ',
       url: 'https://rsrtechgroup.com',
-      logo: 'https://rsrtechgroup.com/logo.png',
+      logo: 'https://rsrtechgroup.com/logo.jpg',
       telephone: '+66-90-570-5825',
       email: 'info@rsrtechgroup.com',
       address: {

@@ -10,7 +10,7 @@ useSchemaOrg([
     '@type': 'ITService' as any,
     name: 'R.S.R Tech Group',
     url: siteUrl,
-    logo: `${siteUrl}/logo.png`,
+    logo: `${siteUrl}/logo.jpg`,
     image: `${siteUrl}/og-image.png`,
     description: 'บริการรับเขียนโปรแกรม พัฒนา Software และ Application ทุกแพลตฟอร์ม',
     telephone: '+66-90-570-5825',
@@ -47,7 +47,7 @@ useSchemaOrg([
   }),
 
   defineWebSite({
-    name: 'R.S.R Tech Group'
+    name: 'อาร์.เอส.อาร์ เทค กรุ๊ป ( R.S.R Tech Group )'
   })
 ])
 
@@ -57,18 +57,18 @@ const links = [
   {
     label: 'ปรึกษาโปรเจกต์ฟรี',
     icon: 'i-lucide-message-circle',
-    size: 'lg',
+    size: 'lg' as const,
     to: 'https://line.me/ti/p/yourid',
     target: '_blank',
   },
   {
     label: 'ดูผลงานของเรา',
     to: '/#portfolio',
-    variant: 'ghost',
-    color: 'gray',
+    variant: 'ghost' as any,
+    color: 'gray' as any,
     icon: 'i-lucide-arrow-right',
     trailing: true,
-    size: 'lg'
+    size: 'lg' as any
   }
 ]
 
@@ -77,7 +77,7 @@ const ctaLinks = [
     label: 'ติดต่อเรา',
     icon: 'i-lucide-file-text',
     to: '/#contact',
-    variant: 'outline',
+    variant: 'outline' as any,
     active: route.hash === '#contact'
   },
   {
@@ -85,8 +85,8 @@ const ctaLinks = [
     icon: 'i-lucide-message-circle',
     to: 'https://line.me/ti/p/yourid',
     target: '_blank',
-    color: 'success',
-    size: 'lg'
+    color: 'success' as any,
+    size: 'lg' as any
   }
 ]
 </script>

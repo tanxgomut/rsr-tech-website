@@ -3,22 +3,22 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 const route = useRoute()
 
 const sectionTitles: Record<string, string> = {
-  '#tech-stack': 'Technologies',
-  '#services': 'Our Services',
-  '#portfolio': 'Portfolio',
-  '#about': 'About Us',
-  '#contact': 'Contact Us'
+    '#tech-stack': 'Technologies',
+    '#services': 'Our Services',
+    '#portfolio': 'Portfolio',
+    '#about': 'About Us',
+    '#contact': 'Contact Us'
 }
 
 const pageTitle = computed(() => {
-  if (route.hash && sectionTitles[route.hash]) {
-    return sectionTitles[route.hash]
-  }
-  return null 
+    if (route.hash && sectionTitles[route.hash]) {
+        return sectionTitles[route.hash]
+    }
+    return null
 })
 
 useHead({
-  title: pageTitle 
+    title: pageTitle
 })
 
 const items = computed<NavigationMenuItem[]>(() => [
@@ -63,11 +63,13 @@ const items = computed<NavigationMenuItem[]>(() => [
 
             <template #left>
                 <NuxtLink to="/">
-                    <Logo  />
+                    <Logo />
                 </NuxtLink>
             </template>
 
+
             <UNavigationMenu :items="items" />
+
 
             <template #right>
                 <UColorModeButton />
@@ -90,7 +92,7 @@ const items = computed<NavigationMenuItem[]>(() => [
         </UMain>
 
         <USeparator :avatar="{
-            src: '/logo.png',
+            src: '/logo.jpg',
             alt: 'R.S.R Tech Group',
             size: 'md'
         }" class="mt-16" />

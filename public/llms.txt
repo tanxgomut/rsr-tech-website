@@ -1,42 +1,57 @@
-# R.S.R Tech Group
+# บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด (R.S.R Tech Group)
 
-> บริษัท Software House ชั้นนำ บริการรับเขียนโปรแกรม พัฒนา Software และ Application ทุกแพลตฟอร์ม
+> บริษัท Software House ชั้นนำของไทย รับเขียนโปรแกรม พัฒนา Software และ Application ครบวงจร
 
-## About
+## เกี่ยวกับเรา
 
-R.S.R Tech Group เป็นบริษัทพัฒนาซอฟต์แวร์และแอปพลิเคชันครบวงจร เราเชี่ยวชาญทั้ง Front-end, Back-end และ Infrastructure พร้อมพาธุรกิจ SMEs และองค์กรขนาดใหญ่ก้าวสู่ยุค Digital Transformation อย่างมั่นคง
+บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด (R.S.R Tech Group) เป็นบริษัทพัฒนาซอฟต์แวร์และแอปพลิเคชันครบวงจรในประเทศไทย เราเชี่ยวชาญการพัฒนาทั้ง Front-end, Back-end และ Infrastructure พร้อมพาธุรกิจ SMEs และองค์กรขนาดใหญ่ก้าวสู่ยุค Digital Transformation อย่างมั่นคง
 
-## Services
+เราให้บริการตั้งแต่การวางแผนกลยุทธ์ ออกแบบ พัฒนา ไปจนถึงการดูแลระบบหลังส่งมอบ โดยทีมงานมืออาชีพที่มีประสบการณ์
 
-- **Web Development**: พัฒนาเว็บไซต์และเว็บแอปพลิเคชันด้วยเทคโนโลยีล่าสุด
-- **Mobile App Development**: พัฒนาแอปพลิเคชัน iOS และ Android
-- **E-Commerce Solutions**: ระบบ E-Commerce ครบวงจร
-- **Custom Software Development**: พัฒนาซอฟต์แวร์ตามความต้องการเฉพาะ
-- **Digital Transformation Consulting**: ให้คำปรึกษาด้าน Digital Transformation
+## ข้อมูลจดทะเบียนนิติบุคคล
 
-## Tech Stack
+- เลขทะเบียนนิติบุคคล: 0105567003705
+- ทุนจดทะเบียน: 5,000,000 บาท
+- วันที่จดทะเบียน: 8 มกราคม 2567
+- ประกอบธุรกิจ: การจัดทำซอฟต์แวร์สำเร็จรูป (ยกเว้นซอฟต์แวร์เกมสำเร็จรูป)
+- สถานะ: ยังดำเนินกิจการอยู่
 
-- Frontend: Vue.js, Nuxt.js, React, Next.js
-- Backend: Node.js, Python, PHP, Go
-- Mobile: Flutter, React Native, Swift, Kotlin
-- Database: PostgreSQL, MySQL, MongoDB, Redis
-- Cloud: AWS, Google Cloud, Azure, Vercel
-- DevOps: Docker, Kubernetes, CI/CD
+## บริการของเรา
 
-## Contact
+- **รับทำเว็บไซต์ (Website Development)**: พัฒนาเว็บไซต์และเว็บแอปพลิเคชันด้วยเทคโนโลยีล่าสุด ทั้งเว็บองค์กร เว็บ E-Commerce และระบบจัดการภายใน
+- **พัฒนาแอปพลิเคชันมือถือ (Mobile App Development)**: พัฒนาแอปพลิเคชัน iOS และ Android ทั้ง Native และ Cross-platform
+- **ระบบ E-Commerce**: พัฒนาระบบ E-Commerce ครบวงจร พร้อมระบบจัดการสต็อก การชำระเงิน และการจัดส่ง
+- **พัฒนาซอฟต์แวร์ตามความต้องการ (Custom Software)**: รับพัฒนาซอฟต์แวร์ตามความต้องการเฉพาะของธุรกิจ
+- **ที่ปรึกษา Digital Transformation**: ให้คำปรึกษาด้านการปรับเปลี่ยนธุรกิจสู่ดิจิทัล
 
-- Website: https://rsrtechgroup.com
-- Email: info@rsrtechgroup.com
-- Phone: +66-90-570-5825
+## เทคโนโลยีที่เชี่ยวชาญ (Tech Stack)
+
+- Frontend: Vue.js, Nuxt.js, React, Next.js, TypeScript
+- Backend: Node.js, Python, PHP, Go, .NET
+- Mobile: Flutter, React Native, Swift (iOS), Kotlin (Android)
+- Database: PostgreSQL, MySQL, MongoDB, Redis, Firebase
+- Cloud: AWS, Google Cloud Platform, Microsoft Azure, Vercel
+- DevOps: Docker, Kubernetes, CI/CD, GitHub Actions
+
+## ติดต่อเรา
+
+- เว็บไซต์: https://rsrtechgroup.com
+- อีเมล: info@rsrtechgroup.com
+- โทรศัพท์: 090-570-5825
 - Facebook: https://www.facebook.com/rsrtechgroup
-- LINE: rsrtechgroup
+- LINE: @rsrtechgroup
 
-## Location
+## ที่ตั้งสำนักงาน
 
 49/220 ซอยหทัยราษฎร์ 37
 แขวงสามวาตะวันตก เขตคลองสามวา
-กรุงเทพมหานคร 10510
+กรุงเทพมหานคร 10510 ประเทศไทย
 
-## Business Hours
+## เวลาทำการ
 
-Monday - Friday: 09:00 - 18:00
+วันจันทร์ - วันศุกร์: 09:00 - 18:00 น.
+(หยุดวันเสาร์-อาทิตย์ และวันหยุดนักขัตฤกษ์)
+
+## คำค้นหาที่เกี่ยวข้อง
+
+รับเขียนโปรแกรม, รับทำเว็บไซต์, รับทำแอพ, Software House ไทย, บริษัทพัฒนาซอฟต์แวร์, รับทำระบบ, รับพัฒนาแอปพลิเคชัน, Web Development Thailand, Mobile App Development Bangkok, IT Solutions Thailand
