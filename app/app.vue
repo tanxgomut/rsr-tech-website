@@ -27,7 +27,7 @@ useHead({
 useSeoMeta({
   // Default SEO - will be overridden per-page
   title: 'รับเขียนโปรแกรม พัฒนา Software และ Mobile App ครบวงจร',
-  description: 'บริษัท Software House ชั้นนำ บริการรับทำเว็บไซต์ แอปพลิเคชัน (iOS/Android) และระบบ E-Commerce โดยทีมงานมืออาชีพ พร้อมให้คำปรึกษาเพื่อยกระดับธุรกิจของคุณ',
+  description: 'บริษัท Software House ชั้นนำ รับเขียนโปรแกรม สร้างเว็บ บริการรับทำเว็บไซต์ แอปพลิเคชัน (iOS/Android) และระบบ E-Commerce โดยทีมงานมืออาชีพ พร้อมให้คำปรึกษาเพื่อยกระดับธุรกิจของคุณ',
   // OG defaults
   ogTitle: 'บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด ( R.S.R Tech Group ) - รับเขียนโปรแกรม รับทำเว็บไซต์ รับทำแอป',
   ogDescription: 'บริษัท Software House ไทย รับเขียนโปรแกรม รับทำเว็บไซต์ รับทำแอปพลิเคชัน iOS/Android พัฒนาซอฟต์แวร์ครบวงจร',
