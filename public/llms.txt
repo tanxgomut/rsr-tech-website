@@ -1,0 +1,42 @@
+# R.S.R Tech Group
+
+> บริษัท Software House ชั้นนำ บริการรับเขียนโปรแกรม พัฒนา Software และ Application ทุกแพลตฟอร์ม
+
+## About
+
+R.S.R Tech Group เป็นบริษัทพัฒนาซอฟต์แวร์และแอปพลิเคชันครบวงจร เราเชี่ยวชาญทั้ง Front-end, Back-end และ Infrastructure พร้อมพาธุรกิจ SMEs และองค์กรขนาดใหญ่ก้าวสู่ยุค Digital Transformation อย่างมั่นคง
+
+## Services
+
+- **Web Development**: พัฒนาเว็บไซต์และเว็บแอปพลิเคชันด้วยเทคโนโลยีล่าสุด
+- **Mobile App Development**: พัฒนาแอปพลิเคชัน iOS และ Android
+- **E-Commerce Solutions**: ระบบ E-Commerce ครบวงจร
+- **Custom Software Development**: พัฒนาซอฟต์แวร์ตามความต้องการเฉพาะ
+- **Digital Transformation Consulting**: ให้คำปรึกษาด้าน Digital Transformation
+
+## Tech Stack
+
+- Frontend: Vue.js, Nuxt.js, React, Next.js
+- Backend: Node.js, Python, PHP, Go
+- Mobile: Flutter, React Native, Swift, Kotlin
+- Database: PostgreSQL, MySQL, MongoDB, Redis
+- Cloud: AWS, Google Cloud, Azure, Vercel
+- DevOps: Docker, Kubernetes, CI/CD
+
+## Contact
+
+- Website: https://rsrtechgroup.com
+- Email: info@rsrtechgroup.com
+- Phone: +66-90-570-5825
+- Facebook: https://www.facebook.com/rsrtechgroup
+- LINE: rsrtechgroup
+
+## Location
+
+49/220 ซอยหทัยราษฎร์ 37
+แขวงสามวาตะวันตก เขตคลองสามวา
+กรุงเทพมหานคร 10510
+
+## Business Hours
+
+Monday - Friday: 09:00 - 18:00
