@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center gap-2 min-w-[280px]">
+  <div class="flex items-center gap-2 min-w-[260px]">
     <NuxtImg src="/logo.jpg" alt="R.S.R Tech Group" class="h-12 rounded-full" />
     <div>
       <p class="font-bold text-xl tracking-tight">
