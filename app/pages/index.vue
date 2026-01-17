@@ -14,8 +14,17 @@ useSchemaOrg([
     image: `${siteUrl}/og-image.png`,
     description: 'บริการรับเขียนโปรแกรม พัฒนา Software และ Application ทุกแพลตฟอร์ม',
     telephone: '+66-90-570-5825',
-    email: 'info@rsrtechgroup.com',
+    email: 'patarapol.r@gmail.com',
     priceRange: '฿฿',
+
+    // Review Rich Results
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '47',
+      bestRating: '5',
+      worstRating: '1'
+    },
 
     openingHoursSpecification: [
       {
@@ -49,6 +58,47 @@ useSchemaOrg([
   defineWebSite({
     name: 'อาร์.เอส.อาร์ เทค กรุ๊ป ( R.S.R Tech Group )'
   })
+])
+
+// FAQ Schema - แยก useSchemaOrg เพื่อให้ FAQ ทำงานถูกต้อง
+useSchemaOrg([
+  {
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'รับทำเว็บไซต์ราคาเท่าไหร่?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'ราคาเริ่มต้นที่ 15,000 - 50,000 บาท สำหรับเว็บไซต์ทั่วไป และ 50,000 - 200,000+ บาท สำหรับระบบ E-Commerce หรือ Web Application ที่ซับซ้อน ขึ้นอยู่กับฟีเจอร์และขอบเขตงาน'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'ใช้เวลาพัฒนานานแค่ไหน?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'เว็บไซต์ทั่วไปใช้เวลาประมาณ 2-4 สัปดาห์ ส่วน Web Application หรือ Mobile App ใช้เวลาประมาณ 1-3 เดือน ขึ้นอยู่กับความซับซ้อนของโปรเจกต์'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'มีบริการดูแลหลังส่งมอบงานไหม?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'มีครับ เรามีบริการดูแลระบบ (Maintenance) รายเดือนและรายปี รวมถึง Support แก้ไขบัค อัพเดทระบบ และสำรองข้อมูลให้'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'รับทำแอปพลิเคชัน iOS และ Android ไหม?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'รับครับ เราพัฒนาแอปพลิเคชันทั้ง iOS และ Android ด้วยเทคโนโลยี Cross-platform เช่น Flutter หรือ React Native ทำให้ประหยัดค่าใช้จ่ายและเวลาในการพัฒนา'
+        }
+      }
+    ]
+  } as any
 ])
 
 
@@ -111,9 +161,13 @@ const ctaLinks = [
 
   <Portfolio />
 
+  <Review />
+
   <About />
 
   <Contact />
+
+  <Faq />
 
   <UPageCTA title="ได้รับความไว้วางใจจากองค์กรและธุรกิจชั้นนำ"
     description="เราภูมิใจที่ได้เป็นพาร์ทเนอร์ผู้อยู่เบื้องหลังความสำเร็จของลูกค้าหลากหลายอุตสาหกรรม ด้วยความมุ่งมั่นในการส่งมอบซอฟต์แวร์คุณภาพสูง และการดูแลที่ไม่ทอดทิ้งคุณ"

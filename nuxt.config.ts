@@ -111,7 +111,7 @@ export default defineNuxtConfig({
       url: 'https://rsrtechgroup.com',
       logo: 'https://rsrtechgroup.com/logo.jpg',
       telephone: '+66-90-570-5825',
-      email: 'info@rsrtechgroup.com',
+      email: 'patarapol.r@gmail.com',
       address: {
         streetAddress: '49/220 ซอยหทัยราษฎร์ 37',
         addressLocality: 'แขวงสามวาตะวันตก เขตคลองสามวา',

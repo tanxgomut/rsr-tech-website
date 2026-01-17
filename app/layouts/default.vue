@@ -99,10 +99,17 @@ const items = computed<NavigationMenuItem[]>(() => [
 
         <UFooter>
 
+            <template #top>
+                <FooterColumns />
+            </template>
+
             <template #left>
-                <p class="text-muted text-sm">
-                    Copyright © {{ new Date().getFullYear() }}
-                </p>
+                <div class="flex items-center gap-4 text-muted text-sm">
+                    <p>Copyright © {{ new Date().getFullYear() }}</p>
+                    <span>|</span>
+                    <NuxtLink to="/privacy" class="hover:text-primary transition-colors">นโยบายความเป็นส่วนตัว</NuxtLink>
+                    <NuxtLink to="/terms" class="hover:text-primary transition-colors">ข้อกำหนดการใช้งาน</NuxtLink>
+                </div>
             </template>
 
             <template #right>
@@ -112,7 +119,7 @@ const items = computed<NavigationMenuItem[]>(() => [
                 <UButton icon="i-simple-icons-line" color="neutral" variant="ghost" to="https://line.me/ti/p/"
                     target="_blank" aria-label="LINE" />
 
-                <UButton icon="i-lucide-mail" color="neutral" variant="ghost" to="mailto:info@rsrtechgroup.com"
+                <UButton icon="i-lucide-mail" color="neutral" variant="ghost" to="mailto:patarapol.r@gmail.com"
                     aria-label="Email" />
             </template>
 
