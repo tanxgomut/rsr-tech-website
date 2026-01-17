@@ -50,8 +50,26 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         { rel: 'dns-prefetch', href: 'https://ui-avatars.com' },
+        // Preload Hero image for faster LCP
+        {
+          rel: 'preload',
+          href: '/images/blocks/image4.png',
+          as: 'image',
+          fetchpriority: 'high'
+        },
+        // Preload logo
+        {
+          rel: 'preload',
+          href: '/logo.jpg',
+          as: 'image'
+        },
       ]
     }
+  },
+
+  // Enable inline styles for critical CSS
+  features: {
+    inlineStyles: true,
   },
   runtimeConfig: {
     public: {
