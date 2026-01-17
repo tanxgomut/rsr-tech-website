@@ -19,8 +19,8 @@ const features = ref([
     },
     {
         title: 'อีเมล:',
-        description: 'info@rsrtechgroup.com',
-        to: 'mailto:info@rsrtechgroup.com',
+        description: 'patarapol.r@gmail.com',
+        to: 'mailto:patarapol.r@gmail.com',
         icon: 'i-lucide-mail',
     },
     {

@@ -1,4 +1,7 @@
-# บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด (R.S.R Tech Group)
+export default defineEventHandler((event) => {
+    setHeader(event, 'Content-Type', 'text/plain; charset=utf-8')
+    return `
+    # บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด (R.S.R Tech Group)
 
 > บริษัท Software House ชั้นนำของไทย รับเขียนโปรแกรม พัฒนา Software และ Application ครบวงจร
 
@@ -36,7 +39,7 @@
 ## ติดต่อเรา
 
 - เว็บไซต์: https://rsrtechgroup.com
-- อีเมล: info@rsrtechgroup.com
+- อีเมล: patarapol.r@gmail.com
 - โทรศัพท์: 090-570-5825
 - Facebook: https://www.facebook.com/rsrtechgroup
 - LINE: @rsrtechgroup
@@ -55,3 +58,8 @@
 ## คำค้นหาที่เกี่ยวข้อง
 
 รับเขียนโปรแกรม, รับทำเว็บไซต์, รับทำแอพ, Software House ไทย, บริษัทพัฒนาซอฟต์แวร์, รับทำระบบ, รับพัฒนาแอปพลิเคชัน, Web Development Thailand, Mobile App Development Bangkok, IT Solutions Thailand
+
+
+`
+})
+

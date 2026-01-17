@@ -12,6 +12,9 @@ useHead({
   htmlAttrs: {
     lang: 'th'
   },
+  meta: [
+    { name: 'llms', content: 'rsrtechgroup.com/llms.txt' }
+  ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
@@ -25,10 +28,8 @@ useHead({
 })
 
 useSeoMeta({
-  // Default SEO - will be overridden per-page
   title: 'รับเขียนโปรแกรม พัฒนา Software และ Mobile App ครบวงจร',
   description: 'บริษัท Software House ชั้นนำ รับเขียนโปรแกรม สร้างเว็บ บริการรับทำเว็บไซต์ แอปพลิเคชัน (iOS/Android) และระบบ E-Commerce โดยทีมงานมืออาชีพ พร้อมให้คำปรึกษาเพื่อยกระดับธุรกิจของคุณ',
-  // OG defaults
   ogTitle: 'บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด ( R.S.R Tech Group ) - รับเขียนโปรแกรม รับทำเว็บไซต์ รับทำแอป',
   ogDescription: 'บริษัท Software House ไทย รับเขียนโปรแกรม รับทำเว็บไซต์ รับทำแอปพลิเคชัน iOS/Android พัฒนาซอฟต์แวร์ครบวงจร',
   ogImage: `${siteUrl}/og-image.png`,
@@ -38,12 +39,10 @@ useSeoMeta({
   ogUrl: `${siteUrl}${route.path}`,
   ogSiteName: 'บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด ( R.S.R Tech Group )',
   ogLocale: 'th_TH',
-  // Twitter defaults
   twitterCard: 'summary_large_image',
   twitterImage: `${siteUrl}/og-image.png`,
   twitterTitle: 'บริษัท อาร์.เอส.อาร์ เทค กรุ๊ป จำกัด ( R.S.R Tech Group ) - รับเขียนโปรแกรม รับทำเว็บไซต์ รับทำแอป',
   twitterDescription: 'บริษัท Software House ไทย รับเขียนโปรแกรม รับทำเว็บไซต์ รับทำแอปพลิเคชัน iOS/Android พัฒนาซอฟต์แวร์ครบวงจร',
-  // Other
   charset: 'utf-8',
   viewport: 'width=device-width, initial-scale=1',
 })
