@@ -42,15 +42,15 @@ const mission = ref([
 <template>
     <UPageSection id="about" title="ABOUT COMPANY" icon="i-lucide-building-2" :description="description" orientation="horizontal"
         reverse>
-        <NuxtImg src="/images/blocks/about.png"
-            alt="Business Partnership" class="w-full h-[400px] object-cover rounded-xl shadow-lg" />
+        <NuxtImg src="/images/blocks/about.jpg"
+            alt="Business Partnership" class="w-full h-[400px] object-cover rounded-xl shadow-lg" width="600" height="400" loading="lazy" />
     </UPageSection>
 
     <UPageCTA  title="VISION" description="ผลักดันให้ธุรกิจทุกคนและทุกองค์กรได้ประสบความสำเร็จด้วยเทคโนโลยี"
         icon="i-lucide-eye" orientation="horizontal" class="rounded-none">
-        <NuxtImg src="/images/blocks/vision.png"
+        <NuxtImg src="/images/blocks/vision.jpg"
             alt="Future Technology"
-            class="w-full h-[300px] object-cover rounded-xl shadow-lg ring-1 ring-gray-200 dark:ring-gray-800" />
+            class="w-full h-[300px] object-cover rounded-xl shadow-lg ring-1 ring-gray-200 dark:ring-gray-800" width="600" height="300" loading="lazy" />
     </UPageCTA>
 
     <UPageSection title="MISSION" description="พันธกิจของเราคือการมุ่งมั่นพัฒนาในทุกด้านเพื่อความสำเร็จของลูกค้า"

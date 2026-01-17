@@ -64,7 +64,7 @@ const columns: FooterColumn[] = [
         <div class="flex flex-col items-start gap-4 max-w-sm">
           <!-- Logo และชื่อบริษัท -->
           <div class="flex items-center gap-3">
-            <NuxtImg src="/logo.jpg" alt="R.S.R Tech Group" class="h-14 rounded-full" />
+            <NuxtImg src="/logo.jpg" alt="R.S.R Tech Group" class="h-14 rounded-full" width="56" height="56" loading="lazy" />
             <div>
               <p class="font-bold text-lg tracking-tight">
                 R.S.R <span class="text-primary-500 dark:text-primary-400">TECH GROUP</span>

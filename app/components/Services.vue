@@ -61,6 +61,6 @@ const steps = ref([
         :features="steps" orientation="horizontal" reverse>
         <NuxtImg src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop"
             alt="Web Analytics Dashboard"
-            class="w-full h-[500px] object-cover rounded-xl shadow-2xl ring-1 ring-gray-200 dark:ring-gray-800" />
+            class="w-full h-[500px] object-cover rounded-xl shadow-2xl ring-1 ring-gray-200 dark:ring-gray-800" width="800" height="500" loading="lazy" />
     </UPageSection>
 </template>

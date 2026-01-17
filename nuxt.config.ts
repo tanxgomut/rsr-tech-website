@@ -24,9 +24,34 @@ export default defineNuxtConfig({
       terserOptions: {
         compress: {
           drop_console: true,
+          drop_debugger: true,
         },
       },
+      // Code splitting for better caching
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            'vendor': ['vue', 'vue-router'],
+          }
+        }
+      }
     },
+    // Optimize deps
+    optimizeDeps: {
+      include: ['vue', 'vue-router']
+    }
+  },
+
+  // App head for performance
+  app: {
+    head: {
+      // Preconnect to external domains
+      link: [
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'dns-prefetch', href: 'https://ui-avatars.com' },
+      ]
+    }
   },
   runtimeConfig: {
     public: {

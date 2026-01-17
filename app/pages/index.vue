@@ -148,7 +148,7 @@ const ctaLinks = [
     description="เราเชี่ยวชาญการพัฒนา Software และ Application คุณภาพสูง (iOS & Android) ทั้ง Front-end, Back-end และ Infrastructure พร้อมพาธุรกิจ SMEs และองค์กรขนาดใหญ่ก้าวสู่ยุค Digital Transformation อย่างมั่นคง"
     orientation="horizontal" :links="links">
     <NuxtImg src="/images/blocks/image4.png" alt="R.S.R Tech Group Digital Solutions"
-      class="w-full rounded-xl shadow-2xl ring-1 ring-gray-200 dark:ring-gray-800" />
+      class="w-full rounded-xl shadow-2xl ring-1 ring-gray-200 dark:ring-gray-800" width="800" height="600" loading="eager" fetchpriority="high" />
   </UPageHero>
 
   <TechStack />

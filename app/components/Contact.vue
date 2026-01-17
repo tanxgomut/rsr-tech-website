@@ -42,6 +42,6 @@ const features = ref([
 
 <template>
     <UPageSection id="contact" title="COMPANY Information" orientation="horizontal" reverse :features="features">
-        <NuxtImg src="/images/blocks/rsr.png" alt="contact" class="w-full h-[247px] md:h-[347px] rounded-lg" />
+        <NuxtImg src="/images/blocks/rsr.jpg" alt="contact" class="w-full h-[247px] md:h-[347px] rounded-lg object-contain" width="600" height="347" loading="lazy" />
     </UPageSection>
 </template>
